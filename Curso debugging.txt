@@ -1,0 +1,18 @@
+Notas curso debugging
+
+Introduccion
+
+minutos importantes para ver en casa:
+
+RESUMEN: Si paras de debuggear porque te llaman ya que llevas un monton de horas cuand estas yendo linea a linea 
+has perdido todas esas horas que has invertido debuggeando
+
+Unidad 1
+
+8:47
+
+- Explore the basics of debugging 
+- build a simple debugger in Python
+
+12:11
+- como debuggear un codigo
