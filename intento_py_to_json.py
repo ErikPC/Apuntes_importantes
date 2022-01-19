@@ -7,4 +7,4 @@ alumnos = {"clase": [{"alumno": "samuele", "programacion": "7", "FOL": "6", "Edu
 with open("alumnos.json", "w") as studente:
     json.dump(alumnos, studente, indent=4)
 
-print("Codigo copiado , codigo controlado")
+print("Codigo copiado , codigo controlado , es bromis no me pegues")
