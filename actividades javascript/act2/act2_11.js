@@ -1,11 +1,11 @@
 function numero_par(){
-    let condicion = 'TRUE'
-    while(condicion == 'TRUE'){
+    let condicion = true
+    while(condicion){
         let numero = parseInt(prompt('Dime un numero'))
         if(numero %2) {
-            window.alert('El numero es impar')
+            condicion = window.confirm('El numero es impar')
         } else {
-            window.alert('El numero es par')
+            condicion = window.confirm('El numero es par')
         }
     }
 }
