@@ -1,25 +1,35 @@
-ACTIVITAT 2 del BLOC 2
+# ACTIVITAT 2 del BLOC 2
+
 1- Crea un HTML que contengui un títol amb h1: «Primer Javascript» i un script (que estigui al «body»),
 que mostri el missatge: "Aquest és el meu primer script". Fes un utilitzant "alert" i un altre utilitzant
 "document.write".
+
 2-Guarda el codi Javascript que has fet a l'anterior exercici a un fitxer extern, i després cride’l des de
 l’arxiu HTML..
+
 3- Crea un HTML amb un script que mostri amb una finestra emergent, un nom d'home i un nom de
 dona, que prèviament s’han demanat i guardat dins dues variables.
+
 4- Escriu un HTML amb un script que demani el teu nom i després l'escrigui a la pàgina web, El
-missatge mostrat ha de dir: "Hola, el teu nom és: _____".
+missatge mostrat ha de dir: "Hola, el teu nom és: **\_**".
+
 5- Escriu un HTML amb un script que demani dos números per pantalla i mostri el més gran.
+
 6- Escriu un script dins d'un HTML que demani dos números per pantalla i mostri la suma dels dos.
+
 7- Escriu un script dins d'un HTML que demani per pantalla el teu nom, la teva edat, la teva estatura i el
-teu estat civil (casat o solter). Després ha de mostrar aquestes dades en una mateixa línia si l'estat civil
-és casat, i en columna si l'estat civil és solter..
+teu estat civil (casat o solter). Després ha de mostrar aquestes dades en una mateixa línia si l'estat civil és casat, i en columna si l'estat civil és solter..
+
 8- Escriu un script a un HTML que demani una paraula per pantalla, i retornar el número de caràcters
 que te la paraula.
+
 9- Crea un script que guardi dins d'un array els dotze mesos de l'any i després escriure aquests mesos
-a la pàgina (has de aconseguir que es mostrin els mesos a la pàgina amb un títol de tipus <h3>.
+a la pàgina (has de aconseguir que es mostrin els mesos a la pàgina amb un títol de tipus "< h3 >".
+
 10- Escriu un script que demani un nota mitjançant una finestra, i retorni un missatge de valoració de la
 nota, per exemple: Si s'introdueix un 3, es pot mostrar el missatge: la nota 3 és molt insuficient, si
 s'introdueix un 7 el missatge podria ser: El 7 és un notable baix, etc.
+
 11- Crea un script per saber si un número (demanat prèviament), és imparell o parell. L’script ha de
 permetre demanar tants de números com l’usuari vulgui, és a dir, has de anar demanant números
 mitjançant un bucle.
