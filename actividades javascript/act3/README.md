@@ -3,18 +3,23 @@ que contengui una llista de botons que cridin a cada una de les funcions. Cada b
 estar vinculat a diferents esdeveniments, per exemple: Si es fa un clic damunt al botó 1,
 s’executarà o cridarà a la funció 1, Si es fa doble clic damunt el botó 2, es cridarà a la
 funció 3, etc.
+
 2- Escriu una funció Javascript que vagi mostrant el números del 1 al 100 mitjançant
 finestres emergents. També crida-la mitjançant un esdeveniment relacionat amb botó que
 has d’afegir a la web anterior.
+
 3- Escriu una funció Javascript que demani 3 números mitjançant pantalles emergents i
 mostri el major dels tres per consola. Afegeix també un botó a la pàgina web i crida
 aquesta funció mitjançant un esdeveniment.
+
 4- Escriu una funció Javascript que demani una cadena alfanumèrica per pantalla (amb
 finestra emergent) i retorni la mateixa cadena convertida a minúscules i després
 convertida a majúscules (també mitjançant finestres emergents). Fes el mateix que amb
 les anteriors funcions.
+
 5- Escriu una nova funció que permeti obrir una nova finestra, que dins d’ella es vegi el
 títol (h1): «Aquesta és una nova finestra» i ha de aparèixer a partir de les coordenades
 250, 450. Crida-la amb un botó
+
 6- Escriu una nova funció que permeti veure la localització de l’arxiu que conté la pàgina
 web que s’està visualitzant. Crida-la amb un botó.
