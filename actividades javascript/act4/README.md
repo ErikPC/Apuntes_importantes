@@ -19,6 +19,7 @@ restauri la mida original del text.
 5- Seguint amb la mateixa pàgina web, escriu una funció Javascript que es permeti canviar el
 color de la font i el color de fons per el primer i segon paràgraf. Els color s'han de demanar per
 pantalla.
+
 6- Amb la mateixa pàgina web, afegeix un títol h1 (per exemple dins del "header"), i després amb
 Javascript afegir nous h1 abans d'aquest, (el número de títols a afegir es demanarà per pantalla).
 
