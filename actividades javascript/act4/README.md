@@ -3,6 +3,7 @@
 1- Crea una funció js que mostri el text que contenen els nodes de tipus paràgraf i de tipus títol
 (< h2 >) d'una pàgina web. Serà necessari crear una pàgina amb «p» i «h2» (més d’un) per a
 comprovar-ho. Enllaça-la des d’un botó, amb l’esdeveniment «ondblclick»
+
 2- Afegeix un "h3" a la pàgina web anterior. Després crea una funció js que permeti canviar el text
 d'aquest "h3", demanant el nou text per pantalla. Enllaça la funció des d’un botó, amb
 l’esdeveniment «onclick»
