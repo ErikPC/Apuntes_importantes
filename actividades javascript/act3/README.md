@@ -1,3 +1,5 @@
+# Actividad 3
+
 1-Converteix tots els scripts de l’activitat 2 amb funcions, i després, crea una pàgina web
 que contengui una llista de botons que cridin a cada una de les funcions. Cada botó pot
 estar vinculat a diferents esdeveniments, per exemple: Si es fa un clic damunt al botó 1,

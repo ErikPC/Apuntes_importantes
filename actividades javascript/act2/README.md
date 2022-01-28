@@ -1,4 +1,4 @@
-# ACTIVITAT 2 del BLOC 2
+# ACTIVITAT 2
 
 1- Crea un HTML que contengui un títol amb h1: «Primer Javascript» i un script (que estigui al «body»),
 que mostri el missatge: "Aquest és el meu primer script". Fes un utilitzant "alert" i un altre utilitzant
