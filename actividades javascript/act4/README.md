@@ -11,14 +11,17 @@ l’esdeveniment «onclick»
 3- Aprofitant la pàgina web anterior, afegeix 4 paràgrafs que estaran dins d’un element «div»,
 escriu una funció js que permeti eliminar de la pàgina web de forma definitiva el primer paràgraf
 d'aquest "div".
+
 4- Amb la maeixa pàgina web, afegeix un enllaç i escriu una funció js que permeti augmentar o
 disminuir la mida del text de l'enllaç quan posem el ratolí damunt, i quan el llevem de damunt es
 restauri la mida original del text.
+
 5- Seguint amb la mateixa pàgina web, escriu una funció Javascript que es permeti canviar el
 color de la font i el color de fons per el primer i segon paràgraf. Els color s'han de demanar per
 pantalla.
 6- Amb la mateixa pàgina web, afegeix un títol h1 (per exemple dins del "header"), i després amb
 Javascript afegir nous h1 abans d'aquest, (el número de títols a afegir es demanarà per pantalla).
+
 7- Ara crea una una llista (potser ordenada o desordenada) amb tres elements dins del «header».
 Crear un CSS amb una classe anomenada "mostrar" (que de moment no utilitzaràs), que ha de
 tenir per exemple, les següents regles:
