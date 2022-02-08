@@ -1,6 +1,5 @@
 function edad_usuario() {
   let edad = prompt("Escribe tu edad");
-  let caib_web = "http://www.caib.es";
   if (edad >= 16) {
     document.write("<a href='http://www.caib.es'/a>http://www.caib.es</a>");
   } else {

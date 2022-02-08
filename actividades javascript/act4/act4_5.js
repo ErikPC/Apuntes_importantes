@@ -1,3 +1,1 @@
-function cambiarcolor(){
-    
-}
+function cambiarcolor() {}
