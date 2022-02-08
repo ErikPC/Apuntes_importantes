@@ -22,6 +22,7 @@
 - el número d'enllaços que té la pàgina,
 - l'últim enllaç de la pàgina,
 - i quants d'enllaços apunten a Google.`
+
 ```HTML
 Codi html
 
@@ -62,11 +63,11 @@ Codi html
 
 La pàgina ha de tenir:
 
-    - Un "header" amb un títol: "Els nostres usuaris són esportistes", 
+    - Un "header" amb un títol: "Els nostres usuaris són esportistes",
     - Diferents seccions, on cada secció (que es crearan dinàmicament), contendrà una llista no ordenada, que es crearà amb les dades de les respostes del usuaris. Per exemple, podria quedar:
 
         Futbol:
         - Pep, 24 anys, color camiseta vermell, 10/07/2019
         - Aina, 20 anys, color camiseta blanc, 01/01/2010
-        Basquet: 
+        Basquet:
         - Pere, 19 anys, color camiseta verda i blanca, 14/09/2018
