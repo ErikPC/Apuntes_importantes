@@ -1,0 +1,13 @@
+body {
+  background-color: aqua;
+}
+p {
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
+form {
+  background-color: lime;
+  position: absolute;
+  right: 0;
+}
