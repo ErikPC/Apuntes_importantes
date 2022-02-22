@@ -1,9 +1,9 @@
-PR = 3.5
-PT1 = 1.96
-MT1 = 3.15
-PT2 = 7
-MT2 = 7
-PJ = 6
+PR = 2
+PT1 = 7.04
+MT1 = 6.51
+PT2 = 8.54
+MT2 = 7.52
+PJ = 6.5
 
 regla_tres <- function(valor , perc) {
     valor * perc / 100
