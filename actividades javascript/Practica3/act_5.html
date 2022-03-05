@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>act 5</title>
+    <script src="act_5.js"></script>
+  </head>
+  <body>
+    <form>
+      <label for="nombre">Nombre</label><br />
+      <input type="text" maxlength="10" id="nombre" required /><br />
+      <label for="telefono">Telefono</label><br />
+      <input
+        type="number"
+        id="telefono"
+        maxlength="9"
+        minlength="9"
+        required
+      /><br />
+      <label for="mail">Mail</label><br />
+      <input type="text" id="mail" required /><br />
+      <label for="pais">Pais</label><br />
+      <input type="text" id="pais" /><br />
+      <label for="ciudad">Ciudad</label><br />
+      <input type="text" id="ciudad" /><br />
+      <label for="tarjeta">Tarjeta</label><br />
+      <input type="text" id="tarjeta" required />
+      <button value="Send" onclick="validacion(this.form)">Send</button>
+    </form>
+  </body>
+</html>
