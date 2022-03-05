@@ -5,7 +5,7 @@ function validar(form) {
     window.alert("Contraseña invalida");
   }
 
-  if (!/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$/) {
+  if (!/[\w]+@[\w]+\.[a-z]{2,4}$/) {
     window.alert("Mail invalido");
   }
 }
