@@ -1,0 +1,9 @@
+<!ELEMENT relacio (persona+)>
+<!ELEMENT persona (nom,email,parentesc)>
+<!ATTLIST persona sexe CDATA #IMPLIED>
+<!ATTLIST persona identif ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesc (#PCDATA)>
+<!ATTLIST parentesc pare IDREFS #IMPLIED>
+<!ATTLIST parentesc germa IDREF #IMPLIED>
