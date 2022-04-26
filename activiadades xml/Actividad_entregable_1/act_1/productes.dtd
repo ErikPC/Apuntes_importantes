@@ -1,0 +1,8 @@
+<!ELEMENT productes (producte+)>
+<!ELEMENT producte (ratoli?,teclat?,monitor?)>
+<!ELEMENT ratoli (#PCDATA)>
+<!ELEMENT teclat (#PCDATA)>
+<!ELEMENT monitor (#PCDATA)>
+<!ATTLIST ratoli codi NMTOKEN #REQUIRED>
+<!ATTLIST teclat codi NMTOKEN #REQUIRED>
+<!ATTLIST monitor codi NMTOKEN #REQUIRED>
