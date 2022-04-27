@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehicles">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vehicle" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="coche" type="xs:string" />
+                            <xs:element name="moto" type="xs:string" />
+                            <xs:element name="camion" type="xs:string" />
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
