@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="llinatge" type="xs:string" />
                             <xs:element name="edat" type="xs:integer" />
-                            <xs:element name="data_naixament">
+                            <xs:element name="data_naixement">
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:string">
@@ -17,8 +17,8 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="email" type="xs:string" />
-                            <xs:element name="telefon" type="xs:string" />
+                            <xs:element name="email" minOccurs="0" type="xs:string" />
+                            <xs:element name="telefon" minOccurs="0" type="xs:string" />
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:string" />
                     </xs:complexType>

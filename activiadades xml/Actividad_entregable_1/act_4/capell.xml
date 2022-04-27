@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<capells xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="capell.xsd">
+    <capell>
+        <color>rojo</color>
+        <modelo>toy fino pal examen</modelo>
+    </capell>
+    <capell>
+        <color>azul</color>
+        <modelo>para cuando la recuperacion</modelo>
+    </capell>
+</capells>
