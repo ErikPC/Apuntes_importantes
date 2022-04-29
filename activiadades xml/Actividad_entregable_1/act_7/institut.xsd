@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="institut">
+        <!-- clase padre institut -->
         <xs:complexType>
             <xs:sequence>
+                <!-- elemento hijo alumne -->
                 <xs:element name="alumne">
                     <xs:complexType>
                         <xs:sequence>
+                            <!-- elemento hijo de alumne que se llama dades -->
                             <xs:element name="dades">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <!-- elementos hijos de dades que son nom llinatges dni -->
                                         <xs:element name="nom" type="xs:string" />
                                         <xs:element name="llinatges" type="xs:string" />
                                         <xs:element name="dni" type="tipus_dni" />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <!-- otro elemento hijo de alumne que se llama comentaris -->
                             <xs:element name="comentaris" type="informacio" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <!-- elemmento hijo data_naixement -->
             <xs:attribute name="data_naixement" type="xs:date" />
         </xs:complexType>
     </xs:element>
+    <!-- creamos un tipo para dni que sea 9 digitos -->
     <xs:simpleType name="tipus_dni">
         <xs:restriction base="xs:int">
             <xs:totalDigits value="9"></xs:totalDigits>
         </xs:restriction>
     </xs:simpleType>
+    <!-- creamos un tipo informacion que minimo sean 5 caracteres y maximo 50 -->
     <xs:simpleType name="informacio">
         <xs:restriction base="xs:string">
             <xs:minLength value="5" />

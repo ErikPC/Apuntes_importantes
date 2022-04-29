@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="vehicles">
+        <!-- elemento padre -->
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="vehicle" maxOccurs="unbounded">
+                    <!-- elemento vehicle hijo de veicle con tres hijos coche moto camion -->
                     <xs:complexType>
                         <xs:choice>
+                            <!-- choice para que sleccione uno de los tres -->
                             <xs:element name="coche" type="xs:string" />
                             <xs:element name="moto" type="xs:string" />
                             <xs:element name="camion" type="xs:string" />

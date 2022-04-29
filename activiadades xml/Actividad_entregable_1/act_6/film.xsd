@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="pelicula">
+        <!-- elemento padre pelicula -->
         <xs:complexType>
             <xs:sequence>
+                <!-- añadimos los elementos hijos directori y repartiment -->
                 <xs:element name="director" type="xs:string" />
                 <xs:element name="repartiment">
                     <xs:complexType>
                         <xs:sequence>
+                            <!-- repartiment tiene  un elemento que se llama interpret -->
                             <xs:element name="interpret" type="xs:string" maxOccurs="unbounded"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <!-- atributos de pelicula que se llama titol y minuts -->
             <xs:attribute name="titol" type="xs:string" />
             <xs:attribute name="minuts" type="xs:integer" />
         </xs:complexType>
