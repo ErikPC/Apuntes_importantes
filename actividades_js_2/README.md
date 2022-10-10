@@ -54,3 +54,26 @@ A partir del siguiente array que se proporciona:
    operadores necesarios para obtener un resultado true y otro resultado false
 3. Determinar el resultado de las cinco operaciones matemáticas realizadas con los
    dos elementos numéricos
+
+## Actividad 5
+
+Completar las condiciones de los if del siguiente script para que los mensajes de los
+alert() se muestren siempre de forma correcta:
+
+```JS
+var numero1 = 5;
+var numero2 = 8;
+if(...) {
+alert("numero1 no es mayor que numero2");
+}
+if(...) {
+alert("numero2 es positivo");
+}
+if(...) {
+alert("numero1 es negativo o distinto de cero");
+}
+if(...) {
+alert("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o
+igual que numero2");
+}
+```
