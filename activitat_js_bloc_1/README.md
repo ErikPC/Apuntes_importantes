@@ -51,3 +51,57 @@ var valores = [true, 5, false, "hola", "adios", 2];
    operadores necesarios para obtener un resultado true y otro resultado false
 3. Determinar el resultado de las cinco operaciones matemáticas realizadas con los
    dos elementos numéricos
+
+Actividad 5
+Completar las condiciones de los if del siguiente script para que los mensajes de los
+alert() se muestren siempre de forma correcta:
+
+```JS
+var numero1 = 5;
+var numero2 = 8;
+if(...) {
+alert("numero1 no es mayor que numero2");
+}
+if(...) {
+alert("numero2 es positivo");
+}
+if(...) {
+alert("numero1 es negativo o distinto de cero");
+}
+if(...) {
+alert("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
+}
+```
+
+Actividad 6
+El cálculo de la letra del Documento Nacional de Identidad (DNI) es un proceso matemático
+sencillo que se basa en obtener el resto de la división entera del número de DNI y el número 23. A partir del resto de la división, se obtiene la letra seleccionándola dentro de un array de
+letras.
+El array de letras es:
+
+```JS
+var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V','H', 'L', 'C', 'K', 'E', 'T'];
+```
+
+Por tanto si el resto de la división es 0, la letra del DNI es la T y si el resto es 3 la letra es la A.
+Con estos datos, elaborar un pequeño script que:
+
+1. Almacene en una variable el número de DNI indicado por el usuario y en otra variable
+   la letra del DNI que se ha indicado. (Pista: si se quiere pedir directamente al usuario
+   que indique su número y su letra, se puede utilizar la función prompt())
+2. En primer lugar (y en una sola instrucción) se debe comprobar si el número es menor
+   que 0 o mayor que 99999999. Si ese es el caso, se muestra un mensaje al usuario
+   indicando que el número proporcionado no es válido y el programa no muestra más
+   mensajes.
+3. Si el número es válido, se calcula la letra que le corresponde según el método
+   explicado anteriormente.
+4. Una vez calculada la letra, se debe comparar con la letra indicada por el usuario. Si no
+   coinciden, se muestra un mensaje al usuario diciéndole que la letra que ha indicado no
+   es correcta. En otro caso, se muestra un mensaje indicando que el número y la letra de
+   DNI son correctos.
+
+Actividad 7
+El factorial de un número entero n es una operación matemática que consiste en multiplicar
+todos los factores n x (n-1) x (n-2) x ... x 1. Así, la factorial de 5 escrito como 5 es
+igual a: 5! = 5 x 4 x 3 x 2 x 1 = 120
+Utilizando la estructura for, crear un script que calcule el factorial de un número entero.
