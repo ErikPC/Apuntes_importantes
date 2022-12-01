@@ -128,3 +128,18 @@ Ten en cuenta que:
 
 Actividad B5
 Calcula la nota media de un alumno de clase, si sus notas son:
+
+Ciencias 7
+Historia 5.5
+Matematicas 8
+Educacion 5
+
+Actividad B7
+Realizar programa en el que el ordenador “piensa” en un número al azar entre 1-50 y lo
+muestra por pantalla. Consulta la siguiente web para realizar la operación RANDOM para el
+número al azar. Usa la función .toFixed() para redondear o para convertirlo a enteros.
+
+Actividad B8
+Realiza los siguientes programas con los métodos indicados en este enlace:
+a) Calcular el mayor de 2 números: N y M
+b) Calcular el menor de 3 números: A, B y C
