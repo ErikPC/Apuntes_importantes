@@ -109,3 +109,22 @@ Utilizando la estructura for, crear un script que calcule el factorial de un nú
 Actividad B1
 La gravedad de la Luna es de alrededor del 17% de la Tierra. Escribe un programa que calcule
 su peso efectivo en la Luna.
+
+Calcula tu Índice de Masa Corporal (IMC) si la fórmula para calcularlo es la siguiente:
+
+IMC = peso/estatura^2
+
+Actividad B3
+Elabora un programa que solicite la medida en Pies y realice la conversión a pulgadas. Ten en
+cuenta que:
+
+1 pie = 12 pulgadas
+
+Actividad B4
+Elabora un programa que solicite la medida en pulgadas y realice la conversión a cm y metros.
+Ten en cuenta que:
+
+1 pulgada = 2,54 cm
+
+Actividad B5
+Calcula la nota media de un alumno de clase, si sus notas son:
