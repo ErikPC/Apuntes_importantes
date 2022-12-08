@@ -7,3 +7,29 @@ Actividad 9
 Definir una función que muestre información sobre una cadena de texto que se le pasa como
 argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está
 formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
+
+Actividad 10
+Definir una función que determine si la cadena de texto que se le pasa como parámetro es un
+palíndromo, es decir, si se lee de la misma forma desde la izquierda y desde la derecha.
+Ejemplo de palíndromo complejo: "La ruta nos aportó otro paso natural".
+
+Actividad C1
+Con la función getMonth() realiza un script para escriba el nombre del mes en el que
+estamos. La variable a usar seria:
+
+```js
+var letras = [
+  "Enero",
+  "Febrero",
+  "Marzo",
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
+];
+```
