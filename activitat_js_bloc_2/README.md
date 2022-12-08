@@ -38,3 +38,8 @@ Actividad C2
 Realiza un programa que en función de la nota que introduzcamos, nos muestre por pantalla la
 nota equivalente en letras del estilo Notable, Insuficiente, ... A su vez, este programa debe
 almacenar hasta 5 notas y luego mostrar la media tanto con numero como con letras.
+
+Actividad C3
+El signo zodiacal de una persona está determinado por su día de nacimiento. Realiza un
+programa que determine tu sigo del zodiaco en función de tu fecha de nacimiento. Deberás
+usar un diccionario, array o lista que asocia a cada signo el período del año que le corresponde.
