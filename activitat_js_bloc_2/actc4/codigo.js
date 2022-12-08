@@ -1,19 +1,5 @@
-var horas = 0;
-var min = 0;
-var i = true;
-while (i > 0) {
-  i = prompt("tiempo tramo en min");
-  if (i > 60) {
-    horas = horas + i / 60;
-    min = i % 60;
-  } else {
-    min = min + i;
-  }
-  console.log(
-    "El viaje a durado " +
-      toString(horas) +
-      " horas y " +
-      toString(min) +
-      " minutos."
-  );
+// Iteramos sobre los valores del 1 al 10
+for (let i = 1; i <= 10; i++) {
+  // Mostramos la tabla de multiplicar del valor actual
+  console.log([...Array(10).keys()].map((j) => i * (j + 1)).join(" "));
 }
