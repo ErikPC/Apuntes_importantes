@@ -33,3 +33,8 @@ var letras = [
   "Diciembre",
 ];
 ```
+
+Actividad C2
+Realiza un programa que en función de la nota que introduzcamos, nos muestre por pantalla la
+nota equivalente en letras del estilo Notable, Insuficiente, ... A su vez, este programa debe
+almacenar hasta 5 notas y luego mostrar la media tanto con numero como con letras.
