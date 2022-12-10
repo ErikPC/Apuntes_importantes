@@ -46,7 +46,7 @@ var equipCiclista = {
   ],
 };
 
-equipCiclista.ciclistas.sort((a, b) => {
+const equipoOrdenado = equipCiclista.ciclistas.sort((a, b) => {
   if (a.tours === b.tours) {
     // Si dos ciclistas tienen el mismo número de tours,
     // se ordenan según el número de wins
@@ -59,5 +59,5 @@ equipCiclista.ciclistas.sort((a, b) => {
 });
 
 for (let i = 0; i < equipCiclista.ciclistas.length; i++) {
-  console.log(equipCiclista.ciclistas.nombre);
+  console.log(equipCiclista.ciclistas[i].nombre);
 }
