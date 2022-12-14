@@ -67,3 +67,5 @@ saySomething();
 // ReferenceError: Cannot access 'greeting' before
 // initialization
 ```
+
+la siguiente declaracion declararía una variable de ámbito de bloque del mismo nombre (saludo) es si el motor JS ya había procesado este código en un paso anterior y ya había configurado todos los ámbitos y sus asociaciones de variables
