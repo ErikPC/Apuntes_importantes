@@ -78,3 +78,5 @@ function listenForClicks(btn,label) {
 var submitBtn = document.getElementById("submit-btn");
 listenForClicks(submitBtn,"Checkout");
 ```
+
+El parametro `label` se cierra con la devolución de llamada de controlador de eventos `onClick()`
